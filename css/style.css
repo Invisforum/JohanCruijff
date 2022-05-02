@@ -1,0 +1,120 @@
+body    {
+    background-image: url(../images/background.jpg);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: 'Acme', sans-serif;
+    line-height: 1.5;
+    width: 1024px;
+    clear: both;
+    margin-left: auto;
+    margin-right: auto; }
+
+/* koppen */
+h1,h2  {
+    color: white;
+    font-weight: normal;
+    line-height: 1;
+    margin-bottom: 0.3em;
+    text-shadow: 2px 1px 4px rgba(0, 0, 0, 1); }
+
+/* tekst elementen */
+p { margin-bottom: 1em;}
+
+/* Header */
+#header {
+    background-image: url(../images/Cruijff-header-silhouet.jpg);
+    height: 220px;
+    border-top: 2px solid black;
+    border-bottom: 2px solid black; }
+
+#site-title {
+    color: white;
+    font-size: 2.2em;
+    font-family: 'Lobster', cursive;
+    text-align: center;
+    padding-top: 20px; }
+
+#site-slogan {
+    color: black;
+    font-size: 2em;
+    font-family: 'Indie Flower', cursive;
+    text-align: center;
+    padding-top: 15px; }
+
+/* Primaire navigatie */
+#primaire-nav {
+    background-color: black;
+    text-align: center;
+    padding: 8px 0px; }
+
+#primaire-nav a {
+    color: white;
+    font-size: 1.1em;
+    padding: 20px; }
+
+#primaire-nav span.text-separator {
+    color: #ff6300;
+    font-weight: bold; }
+
+#primaire-nav a:hover { color: #ff6300; }
+
+/* Inhoud */
+.inhoud {
+    color: #000;
+    font-size: 1.1em;
+    background-color: rgba(199, 199, 199, 0.58);
+    padding: 20px; }
+
+/* Table */
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto; }
+
+#table {  table-layout: fixed;
+          width: 80%;
+          margin-left: auto;
+          margin-right: auto; }
+          
+#cell-1 { background-color: #fff0e6; } 
+#cell-2 { background-color: #ffe0cc; }
+#cell-3 { background-color: #ffd1b3; }
+#cell-4 { background-color: #ffc299; }
+#cell-5 { background-color: #ffb380; }
+#cell-6 { background-color: #ffa366; }
+#cell-7 { background-color: #ff944d; }
+#cell-8 { background-color: #ff8533; }
+#cell-9 { background-color: #ff751a; }
+#cell-10 { background-color: #ff6600; }
+#cell-11 { background-color: #e65c00; }
+#cell-12 { background-color: #cc5200; }
+#cell-13 { background-color: #b34700; }
+#cell-14 { background-color: #993d00; }
+#cell-15 { background-color: #803300; }
+#cell-16 { background-color: #662900; }
+
+
+/* Navigatie in de voet */
+#voet-nav {
+    background-color: #ff6300;
+    border-top: 2px solid black;
+    border-bottom: 2px solid black;
+    font-size: 1.1em;
+    height: 30px; 
+    text-align: center; }
+
+#voet-nav a {
+    color: white;
+    text-decoration: none;
+    padding: 5px; }
+
+/* niet helemaal in lijn met de header. maar dit oogt mooier. Alleen een oranje hover valt weg =/
+Elk voordeel heb zn nadeel zullen we maar zeggen */
+#voet-nav a:hover { color: red; }
+
+ /* Footer */
+ #footer {
+     color: black;
+     padding: 5px 0px;
+     text-align: center; }
